@@ -1,4 +1,4 @@
-execute pathogen#infect()
+" vim-8 execute pathogen#infect()
 set nocompatible
 syntax enable
 filetype plugin indent on
