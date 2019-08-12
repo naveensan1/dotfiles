@@ -28,6 +28,9 @@ let g:solarized_contrast = "high"
 " let g:airline_powerline_fonts = 1
 colorscheme solarized
 
+" Abbreviations
+abbr teh the
+
 " FILE BROWSING:
 
 " Tweaks for browsing
@@ -72,7 +75,7 @@ inoremap <C-t> <C-o>:call ToggleRelativeOn()<cr>
 "vnoremap <C-t> :<C-u>call ToggleRelativeOn()<cr>
 
 """ SYSTEM CLIPBOARD COPY & PASTE SUPPORT
-set pastetoggle=<F2> "F2 before pasting to preserve indentation
+set pastetoggle=<C-p> "F2 before pasting to preserve indentation
 "Copy paste to/from clipboard
 vnoremap <C-c> "*y
 map <silent><Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>"
