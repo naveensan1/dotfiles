@@ -8,6 +8,7 @@ set background=dark
 set  rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
 set laststatus=2
 set t_Co=256
+set timeoutlen=1000 ttimeoutlen=0
 function! ToggleMouse()
     " check if mouse is enabled
     if &mouse == 'a'
